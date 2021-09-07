@@ -12,8 +12,8 @@ from datetime import datetime, timedelta
 
 temp = str()
 temp_value = float()
-Bot_Token = "1712159334:AAGwq25dFU_YjbVG9fuiM_6DwV16oG1JEX8"
-Chat_ID = "-1001435277863"
+Bot_Token = "" # Telegram Bot Token
+Chat_ID = "" # Telegram Chat ID  
 TradeBot = telebot.TeleBot(Bot_Token)
 
 def SendToTelegram(message):
